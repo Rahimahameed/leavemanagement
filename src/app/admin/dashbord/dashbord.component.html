@@ -1,0 +1,81 @@
+
+<mat-toolbar color="danger" id="m">
+    <mat-toolbar-row>
+      <span>
+        <i ></i> e-leave
+      </span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  
+  
+  <mat-drawer-container class="example-container" id="sidenav">
+    <mat-drawer mode="side" opened>
+  
+      <mat-card class="example-card" id="headnav">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title id="title">ADMIN</mat-card-title>
+       </mat-card-header>
+      </mat-card>
+  
+      
+      <ul>
+      <mat-list role="list" >
+        <li> <a href="#"><mat-list-item role="listitem">Dashbord</mat-list-item></a>  <br>
+          <!-- <ul>
+            <li><a href="#">Add Department </a></li> <br>
+            <li><a href="#">update Department </a></li> <br>
+          </ul> -->
+        </li>  
+       <li> <a href="#"><mat-list-item role="listitem">Department</mat-list-item></a>
+        <ul>
+          <li><a href="#">Add Department </a></li> <br>
+          <li><a href="#">update Department </a></li> <br>
+        </ul>
+      </li>
+  
+      <li> <a href="#"><mat-list-item role="listitem">Leave Type</mat-list-item></a>
+        <ul>
+          <li><a href="#">Add Leave</a></li> <br>
+          <li><a href="#">Manage Leave</a></li> <br>
+        </ul>
+      </li>
+  
+      <li> <a href="#"><mat-list-item role="listitem">Employee</mat-list-item></a>
+        <ul>
+          <li><a href="#">Add Employee</a></li> <br>
+          <li><a href="#">Manage Employee</a></li> <br>
+        </ul>
+      </li>
+  
+      <li> <a href="#"><mat-list-item role="listitem">Leave Management</mat-list-item></a>
+        <ul>
+          <li><a href="#">All Leaves</a></li> <br>
+          <li><a href="#">Pending Leaves</a></li> <br>
+          <li><a href="#">Accepted Leaves</a></li> <br>
+          <li><a href="#">Rejected Leaves </a></li> <br>
+        </ul>
+      </li>
+  </mat-list> 
+  
+    </ul>
+  </mat-drawer>
+
+      
+  
+  
+  
+  
+    <mat-drawer-content><app-addemp></app-addemp></mat-drawer-content>
+    
+  </mat-drawer-container>
+  
+  
+  
+  
+  
+  

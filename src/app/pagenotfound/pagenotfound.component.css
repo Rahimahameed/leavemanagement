@@ -1,0 +1,28 @@
+ .Page{ 
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/newpage.PNG")no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:30rem ;
+    padding-bottom: 20rem;
+}  
+
+.Page .content{
+    text-align: center;
+    width: 60rem;
+    
+
+}
+
+.Page .content h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.fa{
+    color: white;
+}
